@@ -17,7 +17,7 @@ function Main() {
     return (
         <>
             <h2>Star Wars People</h2>
-            {data.allPeople.map((people, id)=>(
+            {data.allPeople.people.map((people, id)=>(
                 <p key={id}>
                     {people.name}
                 </p>
