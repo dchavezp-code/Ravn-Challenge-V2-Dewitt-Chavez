@@ -1,28 +1,16 @@
 import React from 'react';
-import { useQuery, gql } from '@apollo/client';
-const ALL_PEOPLE = gql`
-    {
-        allPeople{
-            people{
-                id
-                name
-            }
-        }
-    }
-`;
+import Header from '../../components/header/Header';
+import RetrievePeopleData from './MainLogic';
+import styles from './main.module.css'
+import {List} from '@material-ui/core'
 function Main() {
-    const { loading, error, data } = useQuery(ALL_PEOPLE);
-    if (loading) return <p>Loading...</p>
-    if (error) return <p>Whoops... something is wrong!</p>
     return (
-        <>
-            <h2>Star Wars People</h2>
-            {data.allPeople.people.map((people, id)=>(
-                <p key={id}>
-                    {people.name}
-                </p>
-            ))}
-        </>
+        <div className={styles.container}>
+            <Header title={"People of the Star Wars"} hasButtonBack={false} />
+            <List>
+                <RetrievePeopleData first={5} />
+            </List>
+        </div>
     )
 }
 

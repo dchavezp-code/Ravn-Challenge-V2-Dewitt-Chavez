@@ -1,1 +1,22 @@
-/*To do: Styles of the component Header*/
+.container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: #121212; 
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 17px;
+}
+.backButton{
+    position: absolute;
+    color:white;
+    left:0;
+}
+.backButton svg{
+    color: white;
+}

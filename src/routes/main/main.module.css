@@ -1,1 +1,13 @@
-/*To do: Styles of the Main Page*/
+.container{
+    width: 400px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 20px;
+    background: linear-gradient(
+        to bottom right, 
+        rgba(255, 255, 255, 0.8), 
+        rgba(255, 255, 255, 0.2) 
+    );
+    backdrop-filter: blur(10px);
+}
