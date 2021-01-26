@@ -32,9 +32,12 @@ Web application developed on React that allows navigating the Star Wars GraphQL 
 
 ## Technologies used
 
+[Apollo Client](https://www.apollographql.com/docs/react/get-started/)
+
 [Material Design](https://material-ui.com/es/)
 
 [React Router Dom](https://reactrouter.com/web/guides/quick-start)
 
 [React Waypoint](https://npm.runkit.com/react-waypoint)
+
 
