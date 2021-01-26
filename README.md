@@ -21,11 +21,21 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Project Description
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [Ravn](https://www.ravn.co).
+Web application developed on React that allows navigating the Star Wars GraphQL API based on [Ravn](https://www.ravn.co)'s challenge.
 
 ## Screenshots of the App
 
+![image](https://github.com/dchavezp-code/Ravn-Challenge-V2-Dewitt-Chavez/blob/master/assets/screenshots/1.PNG)
+![image](https://github.com/dchavezp-code/Ravn-Challenge-V2-Dewitt-Chavez/blob/master/assets/screenshots/2.PNG)
+![image](https://github.com/dchavezp-code/Ravn-Challenge-V2-Dewitt-Chavez/blob/master/assets/screenshots/3.PNG)
+![image](https://github.com/dchavezp-code/Ravn-Challenge-V2-Dewitt-Chavez/blob/master/assets/screenshots/4.PNG)
+![image](https://github.com/dchavezp-code/Ravn-Challenge-V2-Dewitt-Chavez/blob/master/assets/screenshots/5.PNG)
+
 ## Technologies used
+
+[Material Design](https://material-ui.com/es/)
+
+[React Router Dom](https://reactrouter.com/web/guides/quick-start)
+
+[React Waypoint](https://npm.runkit.com/react-waypoint)
 
