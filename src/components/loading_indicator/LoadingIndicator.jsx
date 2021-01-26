@@ -1,5 +1,5 @@
 import React from 'react'
-import createDivsForSpinner from '../../helper/createDinamicComponents'
+import createDivsForSpinner from '../../helper/createDivs'
 import styles from './loading_indicator.module.css'
 
 function LoadingIndicator() {

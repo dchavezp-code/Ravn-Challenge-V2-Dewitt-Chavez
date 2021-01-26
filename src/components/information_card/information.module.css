@@ -1,0 +1,15 @@
+.contentInformation{
+    width: 346px;
+    height: 188px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.491988) 50%, rgba(255, 255, 255, 0.2) 97.4%);
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.titleContent{
+    color:#121212;
+    font-size: 17px;
+}

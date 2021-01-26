@@ -1,1 +1,11 @@
-/*To do: Styles of the Notice Failed Load*/
+.container{
+    padding: 16px;
+}
+.message{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#EC5757;
+    font-size: 17px;
+}

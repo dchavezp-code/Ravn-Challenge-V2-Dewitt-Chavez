@@ -1,17 +1,29 @@
 import React from 'react'
 import styles from './personCell.module.css'
-function PersonCell({person}) {
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+import { Link } from 'react-router-dom'
+import IconButton from '@material-ui/core/IconButton';
+function PersonCell({ person }) {
     return (
         <div className={styles.container}>
             <div className={styles.content}>
-                <h1 className={styles.title}>
+                <div className={styles.title}>
                     {person.name}
-                </h1>
-                <h2 className={styles.description}>
-                    {(person.species===null?"human":person.species.name)+" from "+person.homeworld.name}
-                </h2>
+                </div>
+                <div className={styles.description}>
+                    {(person.species === null ? "Human" : person.species.name) + " from " + person.homeworld.name}
+                </div>
             </div>
             <div className={styles.button}>
+                {/*Send the data to the route /person-details/:id*/}
+                <Link to={{
+                    pathname: `/person-details/${person.id}`,
+                    data: { person } // your data array of objects
+                }}>
+                    <IconButton>
+                        <ChevronRightIcon />
+                    </IconButton>
+                </Link>
             </div>
         </div>
     )

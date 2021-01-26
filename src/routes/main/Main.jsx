@@ -7,7 +7,7 @@ function Main() {
     return (
         <div className={styles.container}>
             <Header title={"People of the Star Wars"} hasButtonBack={false} />
-            <List>
+            <List className={styles.list}>
                 <RetrievePeopleData first={5} />
             </List>
         </div>

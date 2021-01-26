@@ -1,1 +1,19 @@
-/*To do: Styles of the component Data cell*/
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 49px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.characteristic{
+    font-size: 17px;
+    color: #828282;
+}
+.detail{
+    font-size: 17px;
+    columns: #121212;;
+}

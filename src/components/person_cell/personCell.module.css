@@ -5,6 +5,7 @@
     height: 63px;
     margin-top: 4px;
     padding-top: 16px;
+    position: relative;
 }
 .content{
     padding-left:16px;
@@ -18,4 +19,9 @@
     font-size: 14px;
     margin: 0;
     color:rgba(0, 0, 0, 0.3)
+}
+.button{
+    position: absolute;
+    right: 0;
+    top: 16px;
 }
