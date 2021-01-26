@@ -27,7 +27,6 @@ Web application developed on React that allows navigating the Star Wars GraphQL 
 
 ![image](https://github.com/dchavezp-code/Ravn-Challenge-V2-Dewitt-Chavez/blob/master/assets/screenshots/1.PNG)
 ![image](https://github.com/dchavezp-code/Ravn-Challenge-V2-Dewitt-Chavez/blob/master/assets/screenshots/2.PNG)
-![image](https://github.com/dchavezp-code/Ravn-Challenge-V2-Dewitt-Chavez/blob/master/assets/screenshots/3.PNG)
 ![image](https://github.com/dchavezp-code/Ravn-Challenge-V2-Dewitt-Chavez/blob/master/assets/screenshots/4.PNG)
 ![image](https://github.com/dchavezp-code/Ravn-Challenge-V2-Dewitt-Chavez/blob/master/assets/screenshots/5.PNG)
 
